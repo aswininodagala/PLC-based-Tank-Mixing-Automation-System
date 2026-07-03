@@ -1,4 +1,6 @@
-﻿Project Report
+*This project is done with an understanding of how control logics work in industries using ladder logic programming.*
+ 
+ Project Report
 PLC Tank Mixing Control System
 
 	Date: May 11, 2026
