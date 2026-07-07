@@ -13,9 +13,9 @@ The objective of this project is to design, implement, and test an automated lad
 
     2. System Architecture & Components
 The automated mixing tank relies on several key physical elements, interfaced directly with the PLC modules:
-        ◦ Level Sensors: Three distinct capacitive or optical level switches are utilized to detect fluid boundaries. A Low Level Switch (LLS) identifies an empty tank, Level Switch A detects when the first material has reached its target volume, and Level Switch B detects when the tank is full.
-        ◦ Control Valves: Single-acting piston valves are used for fluid routing. They operate in a strictly binary fashion (fully open or fully closed). Inlet Valve 1 handles Material A, Inlet Valve 2 handles Material B, and the Outlet Valve manages the drainage of the final product.
-        ◦ Agitator Motor: A mechanically coupled agitator ensures uniform blending of the materials. It is timed via the PLC's internal timer instructions.
+Level Sensors: Three distinct capacitive or optical level switches are utilized to detect fluid boundaries. A Low Level Switch (LLS) identifies an empty tank, Level Switch A detects when the first material has reached its target volume, and Level Switch B detects when the tank is full.
+Control Valves: Single-acting piston valves are used for fluid routing. They operate in a strictly binary fashion (fully open or fully closed). Inlet Valve 1 handles Material A, Inlet Valve 2 handles Material B, and the Outlet Valve manages the drainage of the final product.
+Agitator Motor: A mechanically coupled agitator ensures uniform blending of the materials. It is timed via the PLC's internal timer instructions.
 
 
 
